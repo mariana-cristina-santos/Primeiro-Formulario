@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+    <title>Formulário Resília</title>
+</head>
+<body>
+
+    <div>
+        <h1 id="titulo">Formulário Resília</h1>
+        <br>
+        <p id="subtitulo">Complete suas informações</p>
+        <br>
+        <br>
+        <p id="subtitulo">INSCRIÇÕES ABERTAS!</p>
+        <br>
+    </div>
+    
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome Completo:</strong></label>
+                <input type="text"  name="nome" id="nome" required>
+                
+            </div>
+
+            <br>
+
+            <div class="campo">
+                <label for="email"><strong>E-mail (você usará o mesmo durante todo o curso):</strong></label>
+                <input type="email" name="E-mail" id="email" required>
+            </div>
+
+            <br>
+
+            <div class="campo">
+                <label for="celular"><strong>Celular/Whatsapp):</strong></label>
+                <input type="tel" name="Celular (Whatsapp)" id="celular" required>
+            </div>
+
+            <br>
+
+            <div class="campo">
+                <label for="nascimento"><strong>Data de Nascimento:</strong></label>
+                <input type="date" name="Data de Nascimento" id="nascimento" required>
+            </div>
+
+            <br>
+
+            <div class="campo">
+                <label for="frontend"><strong>Qual é o seu objetivo:</strong></label>
+                <label>
+                    <input type="radio" name="devweb" value="frontend" checked>  Ser desenvolvedor Front-End
+                </label>
+
+                <label for="backend">
+                    <input type="radio" name="devweb" value="backend"> Ser desenvolvedor Back-End
+                </label>
+
+                <label for="fullstack">
+                    <input type="radio" name="devweb" value="fullstack"> Ser desenvolverdor FullStack
+                </label>
+
+                <br>
+
+                <label for="Linkedin"><strong>Como ficou sabendo do nosso processo seletivo?</strong></label>
+                <label>
+                    <input type="radio" name="seletivo" value="Linkedin" checked> Linkedin
+                </label>
+                
+                <label for="Facebook">
+                    <input type="radio" name="seletivo" value="Facebook"> Facebook
+                </label>
+
+                <label for="Instagram">
+                    <input type="radio" name="seletivo" value="Instagram"> Instagram
+                </label>
+
+                <label for="Amigos">
+                    <input type="radio" name="seletivo" value="Amigos"> Indicação de amigos
+                </label>
+
+                <br>
+
+                <label for="HTML"><strong>Conhece ou já trabalhou com algumas dessas tecnologias?</strong>
+                    <br>
+                    <input type="checkbox" name="tecnologia" value="HTML"> HTML
+                </label>
+                
+                <label for="CSS">
+                    <input type="checkbox" name="tecnologia" value="CSS"> CSS
+                </label>
+
+                <label for="JavaScript">
+                    <input type="checkbox" name="tecnologia" value="JavaScript"> JavaScript
+                </label>
+
+                <label for="Python">
+                    <input type="checkbox" name="tecnologia" value="Python"> Python
+                </label>
+
+                <label for="PHP">
+                    <input type="checkbox" name="tecnologia" value="PHP"> PHP
+                </label>
+
+                <label for="JAVA">
+                    <input type="checkbox" name="tecnologia" value="JAVA"> JAVA
+                </label>
+
+                <label for="Ruby">
+                    <input type="checkbox" name="tecnologia" value="Ruby"> Ruby
+                </label>
+
+                <br>
+
+                <label><strong><em>Concorda com a nossa politica de privacidade?</em></strong></label>
+                    <a href="https://www.inscricoes.resilia.dev/politica-de-privacidade/" target="_blank"> Politica de Privacidade</a>
+
+                <br>
+                <br>
+
+
+                <label for="experiencia"><strong>Conte um pouco da sua história:</strong></label>
+                    <textarea row="6" style="width:36em" id="experiencia" name="experiencia"></textarea>
+                
+                <br>
+                <br>
+                
+                <button class="botao" name="button">Inscreva-se</button>
+
+
+                    
+                    
+                
+        
+                
+            </div>
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
